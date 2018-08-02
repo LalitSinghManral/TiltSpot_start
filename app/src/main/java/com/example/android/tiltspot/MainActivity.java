@@ -17,13 +17,16 @@
 package com.example.android.tiltspot;
 
 import android.content.Context;
-import android.content.pm.ActivityInfo;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Display;
+import android.view.Surface;
+import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
@@ -51,17 +54,33 @@ public class MainActivity extends AppCompatActivity
     private float[] mAccelerometerData = new float[3];
     private float[] mMagnetometerData = new float[3];
 
+    //Member Variables for ImageViews
+    private ImageView mSpotTop;
+    private ImageView mSpotLeft;
+    private ImageView mSpotRight;
+    private ImageView mSpotBottom;
+
+    //Member Variable for Display
+    private Display mDisplay;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         // Lock the orientation to portrait (for now)
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        //setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        WindowManager wm = (WindowManager) getSystemService(WINDOW_SERVICE);
+        mDisplay = wm.getDefaultDisplay();
 
         mTextSensorAzimuth = (TextView) findViewById(R.id.value_azimuth);
         mTextSensorPitch = (TextView) findViewById(R.id.value_pitch);
         mTextSensorRoll = (TextView) findViewById(R.id.value_roll);
+        mSpotTop = (ImageView) findViewById(R.id.spot_top);
+        mSpotLeft = (ImageView) findViewById(R.id.spot_left);
+        mSpotRight = (ImageView) findViewById(R.id.spot_right);
+        mSpotBottom = (ImageView) findViewById(R.id.spot_bottom);
+
 
         // Get accelerometer and magnetometer sensors from the sensor manager.
         // The getDefaultSensor() method returns null if the sensor
@@ -110,6 +129,90 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         int sensorType = sensorEvent.sensor.getType();
+
+        switch (sensorType) {
+            case Sensor.TYPE_ACCELEROMETER:
+                mAccelerometerData = sensorEvent.values.clone();
+                break;
+            case Sensor.TYPE_MAGNETIC_FIELD:
+                mMagnetometerData = sensorEvent.values.clone();
+                break;
+
+            default:
+                return;
+        }
+
+        //Array to hold rotaion Matrix
+        float[] rotationMatrix = new float[9];
+        boolean rotationOK = SensorManager.getRotationMatrix(rotationMatrix,
+                null, mAccelerometerData, mMagnetometerData);
+
+        //Array to hold Adjusted Rotation Matrix is rotation is changed.
+        float[] rotationMatrixAdjusted = new float[9];
+
+        switch (mDisplay.getRotation()) {
+            case Surface.ROTATION_0:
+                rotationMatrixAdjusted = rotationMatrix.clone();
+                break;
+            case Surface.ROTATION_90:
+                SensorManager.remapCoordinateSystem(rotationMatrix, SensorManager.AXIS_MINUS_X,
+                        SensorManager.AXIS_Y, rotationMatrixAdjusted);
+                break;
+            case Surface.ROTATION_180:
+                SensorManager.remapCoordinateSystem(rotationMatrix, SensorManager.AXIS_MINUS_X,
+                        SensorManager.AXIS_MINUS_Y, rotationMatrixAdjusted);
+                break;
+            case Surface.ROTATION_270:
+                SensorManager.remapCoordinateSystem(rotationMatrix, SensorManager.AXIS_X,
+                        SensorManager.AXIS_MINUS_Y, rotationMatrixAdjusted);
+                break;
+        }
+
+        //Aray to hold Orientation Matrix values Azimuth
+        float orientationValues[] = new float[3];
+
+        if (rotationOK) {
+            //SensorManager.getOrientation(rotationMatrix,orientationValues);
+            //TO Get rotation Adjusted Orientation
+            SensorManager.getOrientation(rotationMatrixAdjusted, orientationValues);
+        }
+
+        //Get the 3 orientation values
+        float azimuth = orientationValues[0];
+        float pitch = orientationValues[1];
+        float roll = orientationValues[2];
+
+        //Place Values to Placeholder TextView
+        mTextSensorAzimuth.setText(getResources().getString(R.string.value_format, azimuth));
+        mTextSensorPitch.setText(getResources().getString(R.string.value_format, pitch));
+        mTextSensorRoll.setText(getResources().getString(R.string.value_format, roll));
+
+        //Value Drift
+        if (Math.abs(pitch) < VALUE_DRIFT) {
+            pitch = 0;
+        }
+        if (Math.abs(roll) < VALUE_DRIFT) {
+            roll = 0;
+        }
+
+        //Reset All spot Alpha value to 0 i.e Invisible
+        mSpotTop.setAlpha(0f);
+        mSpotLeft.setAlpha(0f);
+        mSpotRight.setAlpha(0f);
+        mSpotBottom.setAlpha(0f);
+
+        //Update the Alpha Value depending on Pitch and Roll
+        if (pitch > 0) {
+            mSpotBottom.setAlpha(Math.abs(pitch));
+        } else {
+            mSpotTop.setAlpha(pitch);
+        }
+        if (roll > 0) {
+            mSpotLeft.setAlpha(roll);
+        } else {
+            mSpotRight.setAlpha(Math.abs(roll));
+        }
+
     }
 
     /**
