@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\singhmanral\\Desktop\\Advance Android\\TiltSpot_start\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/singhmanral/Desktop/Advance Android Koenig/TiltSpot_start/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\singhmanral\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\97083d4b44ccccce533c72b5b60f6204\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/singhmanral/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/8c673d1f69762530f52afd96a60eece2/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
