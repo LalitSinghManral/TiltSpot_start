@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\cad7c8638e50af13e2ae848560458ce1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\00ef6d373d712b27748fbe16bdaf7477\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\26739c9aa65792f004dd5c8abdebe307\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1e5f0b7f853df10098d888355e2a16cc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\60448c9bb37967b8b4e427524b45a321\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\0dc64fd0b33cb0a48b4c7389fae986c7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d197046145fc04a6d05f4eb985dd3935\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f8f721a441433f1a2a55339fd576ec65\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\aa277d024332090cf15e0eef9f1e2290\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+	package
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:16:11-49
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:1-34:12
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:15:11-69
+application
+ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:18:5-32:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\cad7c8638e50af13e2ae848560458ce1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\cad7c8638e50af13e2ae848560458ce1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\00ef6d373d712b27748fbe16bdaf7477\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\00ef6d373d712b27748fbe16bdaf7477\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\26739c9aa65792f004dd5c8abdebe307\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\26739c9aa65792f004dd5c8abdebe307\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1e5f0b7f853df10098d888355e2a16cc\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1e5f0b7f853df10098d888355e2a16cc\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\60448c9bb37967b8b4e427524b45a321\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\60448c9bb37967b8b4e427524b45a321\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\0dc64fd0b33cb0a48b4c7389fae986c7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\0dc64fd0b33cb0a48b4c7389fae986c7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d197046145fc04a6d05f4eb985dd3935\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d197046145fc04a6d05f4eb985dd3935\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f8f721a441433f1a2a55339fd576ec65\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f8f721a441433f1a2a55339fd576ec65\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\aa277d024332090cf15e0eef9f1e2290\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\aa277d024332090cf15e0eef9f1e2290\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:21:9-41
+	android:roundIcon
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:22:9-54
+	android:icon
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:24:9-40
+activity#com.example.android.tiltspot.MainActivity
+ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:25:19-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:27:17-68
+	android:name
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\cad7c8638e50af13e2ae848560458ce1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\cad7c8638e50af13e2ae848560458ce1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\00ef6d373d712b27748fbe16bdaf7477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\00ef6d373d712b27748fbe16bdaf7477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\26739c9aa65792f004dd5c8abdebe307\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\26739c9aa65792f004dd5c8abdebe307\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1e5f0b7f853df10098d888355e2a16cc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1e5f0b7f853df10098d888355e2a16cc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\60448c9bb37967b8b4e427524b45a321\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\60448c9bb37967b8b4e427524b45a321\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\0dc64fd0b33cb0a48b4c7389fae986c7\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\0dc64fd0b33cb0a48b4c7389fae986c7\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d197046145fc04a6d05f4eb985dd3935\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d197046145fc04a6d05f4eb985dd3935\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f8f721a441433f1a2a55339fd576ec65\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f8f721a441433f1a2a55339fd576ec65\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\aa277d024332090cf15e0eef9f1e2290\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\aa277d024332090cf15e0eef9f1e2290\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\singhmanral\Desktop\Advance Android\TiltSpot_start\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\00ef6d373d712b27748fbe16bdaf7477\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\00ef6d373d712b27748fbe16bdaf7477\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\26739c9aa65792f004dd5c8abdebe307\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\26739c9aa65792f004dd5c8abdebe307\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1e5f0b7f853df10098d888355e2a16cc\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\1e5f0b7f853df10098d888355e2a16cc\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\60448c9bb37967b8b4e427524b45a321\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\60448c9bb37967b8b4e427524b45a321\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\0dc64fd0b33cb0a48b4c7389fae986c7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\0dc64fd0b33cb0a48b4c7389fae986c7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d197046145fc04a6d05f4eb985dd3935\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\d197046145fc04a6d05f4eb985dd3935\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f8f721a441433f1a2a55339fd576ec65\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f8f721a441433f1a2a55339fd576ec65\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\aa277d024332090cf15e0eef9f1e2290\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\aa277d024332090cf15e0eef9f1e2290\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\singhmanral\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\97083d4b44ccccce533c72b5b60f6204\AndroidManifest.xml:26:9-47
